@@ -1,0 +1,38 @@
+.outerWrapper {
+    color: #B3B3B3;
+    padding-left: auto ;
+    padding-right: auto;
+    padding-top: 20px;
+    border-top: 10px solid #232323;
+    margin-top: 20px;
+}
+.outerWrapper > p {
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-left: 37px;
+    text-decoration: underline;
+}
+.outerWrapper > p {
+    cursor: pointer;
+}
+.inernal__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+
+.inernal__wrapper > ul {
+    list-style-type: none;
+   
+}
+.inernal__wrapper > ul > li {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.inernal__wrapper > ul > li:hover {
+    cursor: pointer;
+}
+.outerWrapper > .choose__language > option {
+    padding-left: 50px;
+}
